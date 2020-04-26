@@ -16,7 +16,7 @@
 
 
 //accept the name
-var name = "John Doe";
+var name = " Dunsin Fakorede ";
 
 //prepare the greeting
 var greeting = "Hello" + name;
