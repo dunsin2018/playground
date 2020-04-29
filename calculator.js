@@ -9,13 +9,17 @@ return (number1 + number2);
 console.log(sumFunc(9, 4));*/
 
 
-var x = 3;
-var remainder = x % 2;
+//check if the input parameter is a number
+//
 
-if (remainder != 0) {
-    console.log("Number " + x + "is odd");
-} else {
-    console.log("Number " + x + "is even");
+function OddEvenNumbers(num) {
+    var remainder = num % 2;
+
+    if (remainder != 0) {
+        console.log("Number " + num + "is odd");
+    } else {
+        console.log("Number " + num + "is even");
+    }
+
 }
-
-function OddEvenNumbers(num);
+OddEvenNumbers(11);
