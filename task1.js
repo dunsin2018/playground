@@ -16,7 +16,7 @@ function personData(person) {
 console.log(person);
 
 
-person.age = 30;
+person.age = 16;
 
 let yearOfBirth = (2020 - person.age);
 
