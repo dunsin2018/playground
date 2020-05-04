@@ -6,6 +6,8 @@ function multiplicationTable(maxNumber, minNumber) {
         console.log(`${minNumber} * ${i} = ${result}`);
 
 
+
+
     }
     // return timetables
 

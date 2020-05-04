@@ -14,25 +14,25 @@ function personData(person) {
 
 }
 console.log(person);
+person.age = 29;
 
-
-person.age = 16;
-
-let yearOfBirth = (2020 - person.age);
-
-function getBirthYear(yearOfBirth) {
-
-    return yearOfBirth;
+function getBirthYear() {
+    const date = new Date();
+    return (date.getFullYear() - person.age);
 
 }
-console.log(getBirthYear(yearOfBirth))
+console.log(getBirthYear());
 
 function personClassifier(yearOfBirth) {
-    if (yearOfBirth >= 2000) {
+    const minMiillenialYear = 2000;
+
+    if (yearOfBirth >= minMiillenialYear) {
         return "Millennial";
     } else {
         return "Not Millennial";
+    } else {
+        return "Invalid number NaN ";
     }
 
 }
-console.log(personClassifier(yearOfBirth));
+console.log(personClassifier(1990));
